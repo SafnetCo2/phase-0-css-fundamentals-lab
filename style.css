@@ -1,8 +1,8 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: none;
- 
+  box-sizing: border-box;
+
 
 
 }
@@ -19,6 +19,7 @@ body {
 
 }
 h1{
+  color: rgb(131, 108, 79);
   padding: 10px;
   margin: 0 auto;
 }
@@ -29,25 +30,26 @@ a{
   text-align: center;
   text-decoration: none;
   margin: 10px;
-  padding: 12px;
+  padding: 10px 10px;
   border-radius: .5rem;
   font-size: 1.2rem;
   border: none;
   overflow: hidden;
-  color: #000;
+
 
 }
 
 header{
   text-align: center;
+
 }
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  width: 60%;
-  height: 50vh;
+  width: 800px;
+
   border-radius: .5rem;
 
 }
@@ -57,25 +59,39 @@ figcaption{
 #featured-property  p{
   margin: 10px;
   padding: 20px;
- text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
  line-height: 1.5rem;
 }
 #details{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  text-align: left;
   margin: 10px;
-  padding: 20px;
+  padding: 15px;
+  color: #000;
+  width: 100%;
+
+}
+#details h3{
+  text-align: left;
+
 }
 #details p{
   text-align: left;
-  gap: 10px;
+
 }
 .details a{
   text-align: left;
 
+
 }
-#details:hover{
-  background-color: none;
+
+#details div{
+  background-color: rgb(155, 131, 102);
+  color: #000;
+  text-align: center;
+  width: 25%;
 }
